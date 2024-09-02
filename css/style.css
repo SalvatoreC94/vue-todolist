@@ -8,6 +8,34 @@ Reset
     box-sizing: border-box;
 }
 
+body,
 html {
-    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+}
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.remove {
+    color: red;
+    cursor: pointer;
+}
+
+input,
+button {
+    margin-bottom: 15px;
 }
